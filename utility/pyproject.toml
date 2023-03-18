@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "utility"
+version = "0.1.0"
+description = ""
+authors = ["Shen Nan <wongshennan@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+boto3 = "^1.26.94"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
